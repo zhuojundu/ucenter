@@ -6,7 +6,7 @@
 
 运行命令：
 ~~~
-composer require zhuojundu/ucenter
+composer require zhuojd/ucenter
 ~~~
 
 安装完后，在 `app/config/app.php` 文件中找到 `providers` 键，
