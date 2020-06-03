@@ -1,12 +1,12 @@
 {
-    "name": "zhuojd/ucenter",
+    "name": "zhuojundu/ucenter",
     "description": "ucenter client for laravel",
     "license": "MIT",
     "authors": [
         {
-            "name": "zhuojd",
+            "name": "zhuojundu",
             "email": "495998903@noxue.com",
-            "homepage": "http://zhuojd.com",
+            "homepage": "http://zhuojundu.com",
             "role": "Developer"
         }
     ],

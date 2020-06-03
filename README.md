@@ -1,12 +1,12 @@
 ## discuz Ucenter 集成 laravel5.5
 
-说明：本项目在 https://github.com/binaryoung/ucenter 项目的基础上做了修改。
+说明：本项目在 github.com/noxue/ucenter 项目的基础上做了修改。
 
-原项目，接口路由地址问题，在做同步登陆的时候不能用session，所以做了修复
+原项目，对于高版本php,mysql函数已被弃用，所以做了修复
 
 运行命令：
 ~~~
-composer require noxue/ucenter
+composer require zhuojundu/ucenter
 ~~~
 
 安装完后，在 `app/config/app.php` 文件中找到 `providers` 键，
@@ -81,8 +81,6 @@ return [
 $result = Ucenter::uc_get_user('admin');
 var_dump($result);
 ~~~
-
-有任何疑问请到此处提问：http://www.noxue.com/f-wenda-1.html
 
 ## 联系我
 有问题，请提交issue
